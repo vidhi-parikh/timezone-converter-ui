@@ -1,0 +1,33 @@
+.tabs {
+  display: flex;
+  cursor: pointer;
+}
+
+.tab {
+  padding: 10px;
+  margin-right: 5px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 10px;
+  color: black;
+}
+
+.tab.active {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  margin-bottom: -5px;
+}
+
+.tab-content {
+  margin-top: 20px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* background-color: red; */
+}
